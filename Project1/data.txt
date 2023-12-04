@@ -1,0 +1,2902 @@
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:03:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+...........................
+[04-12-2023 06:03:37] lldp:176 | Job run
+[04-12-2023 06:03:37] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:03:37] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:03:37] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:03:37] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:03:37] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:03:37] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:03:37] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:03:37] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:03:37] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:03:37] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:03:37] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:03:37] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:03:37] lldp:494 | Closing pcap
+[04-12-2023 06:03:37] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:03:37	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+..==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:03:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+..==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:03:41	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 8b 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 30 41 41 4f 4d 52 51 
+04 07 03 04 7c 16 ec 0d 8b 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:8b
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 30 41 41 4f 4d 52 51 
+Port ID: 03 04 7c 16 ec 0d 8b 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+..........................
+[04-12-2023 06:04:07] lldp:176 | Job run
+[04-12-2023 06:04:07] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:04:07] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:04:07] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:04:07] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:04:07] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:04:07] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:04:07] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:04:07] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:04:07] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:04:07] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:04:07] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:04:07] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:04:07] lldp:494 | Closing pcap
+[04-12-2023 06:04:07] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:04:07	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+..==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:04:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+............................
+[04-12-2023 06:04:37] lldp:176 | Job run
+[04-12-2023 06:04:37] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:04:37] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:04:37] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:04:37] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:04:37] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:04:37] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:04:37] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:04:37] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:04:37] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:04:37] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:04:37] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:04:37] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:04:37] lldp:494 | Closing pcap
+[04-12-2023 06:04:37] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:04:37	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+...==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:04:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:04:41	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+04 07 03 04 7c 16 ec 0d 84 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+...................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:05:00	len: 60
+==============================================================================
+01 80 c2 00 00 0e f8 75 a4 2a 71 a2 88 cc 02 07 
+04 f8 75 a4 2a 71 a2 04 07 03 f8 75 a4 2a 71 a2 
+06 02 0e 11 fe 09 00 12 0f 01 03 00 01 00 00 fe 
+07 00 12 bb 01 00 01 01 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: f8:75:a4:2a:71:a2
+Chassis ID: 04 f8 75 a4 2a 71 a2 
+Port ID: 03 f8 75 a4 2a 71 a2 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+.....==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:05:05	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 83 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 4c 41 54 4c 37 55 50 
+04 07 03 04 7c 16 ec 0d 83 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:83
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 4c 41 54 4c 37 55 50 
+Port ID: 03 04 7c 16 ec 0d 83 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+..
+[04-12-2023 06:05:08] lldp:176 | Job run
+[04-12-2023 06:05:08] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:05:08] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:05:08] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:05:08] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:05:08] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:05:08] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:05:08] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:05:08] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:05:08] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:05:08] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:05:08] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:05:08] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:05:08] lldp:494 | Closing pcap
+[04-12-2023 06:05:08] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:05:08	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+..==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:05:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+............................
+[04-12-2023 06:05:38] lldp:176 | Job run
+[04-12-2023 06:05:38] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:05:38] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:05:38] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:05:38] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:05:38] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:05:38] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:05:38] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:05:38] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:05:38] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:05:38] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:05:38] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:05:38] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:05:38] lldp:494 | Closing pcap
+[04-12-2023 06:05:38] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:05:38	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:05:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.............................
+[04-12-2023 06:06:08] lldp:176 | Job run
+[04-12-2023 06:06:08] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:06:08] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:06:08] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:06:08] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:06:08] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:06:08] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:06:08] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:06:08] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:06:08] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:06:08] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:06:08] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:06:08] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:06:08] lldp:494 | Closing pcap
+[04-12-2023 06:06:08] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:08	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.........==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:19	len: 67
+==============================================================================
+01 80 c2 00 00 00 04 7c 16 ec 0d 87 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 49 4a 39 32 48 39 39 
+04 07 03 04 7c 16 ec 0d 87 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:00
+Source Mac Address: 04:7c:16:ec:0d:87
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 49 4a 39 32 48 39 39 
+Port ID: 03 04 7c 16 ec 0d 87 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:19	len: 67
+==============================================================================
+01 80 c2 00 00 03 04 7c 16 ec 0d 87 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 49 4a 39 32 48 39 39 
+04 07 03 04 7c 16 ec 0d 87 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:03
+Source Mac Address: 04:7c:16:ec:0d:87
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 49 4a 39 32 48 39 39 
+Port ID: 03 04 7c 16 ec 0d 87 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:19	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 87 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 49 4a 39 32 48 39 39 
+04 07 03 04 7c 16 ec 0d 87 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:87
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 49 4a 39 32 48 39 39 
+Port ID: 03 04 7c 16 ec 0d 87 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+....................
+[04-12-2023 06:06:39] lldp:176 | Job run
+[04-12-2023 06:06:39] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:06:39] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:06:39] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:06:39] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:06:39] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:06:39] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:06:39] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:06:39] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:06:39] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:06:39] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:06:39] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:06:39] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:06:39] lldp:494 | Closing pcap
+[04-12-2023 06:06:39] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:39	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:06:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.............................
+[04-12-2023 06:07:09] lldp:176 | Job run
+[04-12-2023 06:07:09] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:07:09] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:07:09] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:07:09] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:07:09] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:07:09] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:07:09] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:07:09] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:07:09] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:07:09] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:07:09] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:07:09] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:07:09] lldp:494 | Closing pcap
+[04-12-2023 06:07:09] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:07:09	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:07:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.............................
+[04-12-2023 06:07:39] lldp:176 | Job run
+[04-12-2023 06:07:39] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:07:39] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:07:39] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:07:39] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:07:39] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:07:39] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:07:39] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:07:39] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:07:39] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:07:39] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:07:39] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:07:39] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:07:39] lldp:494 | Closing pcap
+[04-12-2023 06:07:39] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:07:39	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:07:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.............................
+[04-12-2023 06:08:10] lldp:176 | Job run
+[04-12-2023 06:08:10] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:08:10] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:08:10] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:08:10] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:08:10] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:08:10] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:08:10] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:08:10] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:08:10] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:08:10] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:08:10] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:08:10] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:08:10] lldp:494 | Closing pcap
+[04-12-2023 06:08:10] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:10	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+....................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:30	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 6b 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 50 34 48 4a 33 49 4d 
+04 07 03 04 7c 16 ec 0d 6b 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:6b
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 50 34 48 4a 33 49 4d 
+Port ID: 03 04 7c 16 ec 0d 6b 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+..........
+[04-12-2023 06:08:40] lldp:176 | Job run
+[04-12-2023 06:08:40] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:08:40] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:08:40] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:08:40] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:08:40] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:08:40] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:08:40] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:08:40] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:08:40] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:08:40] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:08:40] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:08:40] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:08:40] lldp:494 | Closing pcap
+[04-12-2023 06:08:40] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:40	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+...==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:43	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+04 07 03 04 7c 16 ec 0d 84 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:44	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+04 07 03 04 7c 16 ec 0d 84 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:45	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+04 07 03 04 7c 16 ec 0d 84 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+.==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:08:46	len: 67
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 10 
+07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+04 07 03 04 7c 16 ec 0d 84 06 02 0e 11 fe 09 00 
+12 0f 01 03 00 01 00 00 fe 07 00 12 bb 01 00 01 
+01 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 44 45 53 4b 54 4f 50 2d 31 47 33 34 32 39 4e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 1417
+Organizationally Specific TLVs:  0 12  f  1  3  0  1  0  0 
+Organizationally Specific TLVs:  0 12 bb  1  0  1  1 
+........................
+[04-12-2023 06:09:10] lldp:176 | Job run
+[04-12-2023 06:09:10] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:09:10] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:09:10] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:09:10] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:09:10] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:09:10] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:09:10] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:09:10] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:09:10] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:09:10] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:09:10] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:09:10] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:09:10] lldp:494 | Closing pcap
+[04-12-2023 06:09:10] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:09:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:09:10	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:09:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.
+[04-12-2023 06:09:41] lldp:176 | Job run
+[04-12-2023 06:09:41] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:09:41] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:09:41] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:09:41] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:09:41] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:09:41] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:09:41] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:09:41] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:09:41] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:09:41] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:09:41] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:09:41] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:09:41] lldp:494 | Closing pcap
+[04-12-2023 06:09:41] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:09:41	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:10:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.
+[04-12-2023 06:10:11] lldp:176 | Job run
+[04-12-2023 06:10:11] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:10:11] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:10:11] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:10:11] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:10:11] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:10:11] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:10:11] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:10:11] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:10:11] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:10:11] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:10:11] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:10:11] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:10:11] lldp:494 | Closing pcap
+[04-12-2023 06:10:11] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:10:11	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:10:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+.
+[04-12-2023 06:10:41] lldp:176 | Job run
+[04-12-2023 06:10:41] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:10:41] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:10:41] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:10:41] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:10:41] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:10:41] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:10:41] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:10:41] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:10:41] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:10:41] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:10:41] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:10:41] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:10:41] lldp:494 | Closing pcap
+[04-12-2023 06:10:41] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:10:41	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:11:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+..
+[04-12-2023 06:11:11] lldp:176 | Job run
+[04-12-2023 06:11:11] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:11:11] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:11:11] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:11:11] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:11:11] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:11:11] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:11:11] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:11:11] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:11:11] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:11:11] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:11:11] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:11:11] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:11:11] lldp:494 | Closing pcap
+[04-12-2023 06:11:11] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:11:11	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:11:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+..
+[04-12-2023 06:11:42] lldp:176 | Job run
+[04-12-2023 06:11:42] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:11:42] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:11:42] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:11:42] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:11:42] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:11:42] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:11:42] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:11:42] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:11:42] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:11:42] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:11:42] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:11:42] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:11:42] lldp:494 | Closing pcap
+[04-12-2023 06:11:42] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:11:42	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:12:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+..
+[04-12-2023 06:12:12] lldp:176 | Job run
+[04-12-2023 06:12:12] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:12:12] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:12:12] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:12:12] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:12:12] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:12:12] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:12:12] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:12:12] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:12:12] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:12:12] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:12:12] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:12:12] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:12:12] lldp:494 | Closing pcap
+[04-12-2023 06:12:12] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:12:12	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+............................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:12:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+..
+[04-12-2023 06:12:42] lldp:176 | Job run
+[04-12-2023 06:12:42] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:12:42] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:12:42] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:12:42] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:12:42] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:12:42] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:12:42] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:12:42] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:12:42] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:12:42] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:12:42] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:12:42] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:12:42] lldp:494 | Closing pcap
+[04-12-2023 06:12:42] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:12:42	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+...........................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:13:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+...
+[04-12-2023 06:13:13] lldp:176 | Job run
+[04-12-2023 06:13:13] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:13:13] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:13:13] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:13:13] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:13:13] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:13:13] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:13:13] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:13:13] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:13:13] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:13:13] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:13:13] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:13:13] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:13:13] lldp:494 | Closing pcap
+[04-12-2023 06:13:13] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:13:13	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+...........................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:13:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+...
+[04-12-2023 06:13:43] lldp:176 | Job run
+[04-12-2023 06:13:43] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:13:43] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:13:43] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:13:43] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:13:43] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:13:43] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:13:43] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:13:43] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:13:43] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:13:43] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:13:43] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:13:43] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:13:43] lldp:494 | Closing pcap
+[04-12-2023 06:13:43] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:13:43	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+...........................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:14:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+...
+[04-12-2023 06:14:13] lldp:176 | Job run
+[04-12-2023 06:14:13] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:14:13] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:14:13] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:14:13] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:14:13] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:14:13] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:14:13] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:14:13] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:14:13] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:14:13] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:14:13] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:14:13] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:14:13] lldp:494 | Closing pcap
+[04-12-2023 06:14:13] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:14:13	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+..........................==============LLDP Protocol=================
+.==============================================================================
+No.1	time: 18:14:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+...
+[04-12-2023 06:14:43] lldp:176 | Job run
+[04-12-2023 06:14:43] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:14:43] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:14:43] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:14:43] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:14:43] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:14:43] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:14:43] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:14:43] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:14:43] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:14:43] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:14:43] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:14:43] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:14:43] lldp:494 | Closing pcap
+[04-12-2023 06:14:43] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:14:43	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+..........................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:15:10	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+....
+[04-12-2023 06:15:14] lldp:176 | Job run
+[04-12-2023 06:15:14] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:15:14] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:15:14] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:15:14] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:15:14] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:15:14] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:15:14] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:15:14] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:15:14] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:15:14] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:15:14] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:15:14] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:15:14] lldp:494 | Closing pcap
+[04-12-2023 06:15:14] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:15:14	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+..........................==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:15:40	len: 472
+==============================================================================
+01 80 c2 00 00 0e 78 aa 82 9f b9 54 88 cc 02 07 
+04 78 aa 82 9f b9 43 04 07 03 78 aa 82 9f b9 54 
+06 02 00 79 08 1e 47 69 67 61 62 69 74 45 74 68 
+65 72 6e 65 74 31 2f 30 2f 34 20 49 6e 74 65 72 
+66 61 63 65 0a 12 53 45 55 2d 4a 4c 48 2d 52 4a 
+58 59 4c 2d 33 4c 2d 31 0c a8 48 33 43 20 43 6f 
+6d 77 61 72 65 20 50 6c 61 74 66 6f 72 6d 20 53 
+6f 66 74 77 61 72 65 2c 20 53 6f 66 74 77 61 72 
+65 20 56 65 72 73 69 6f 6e 20 37 2e 31 2e 30 37 
+30 2c 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 
+32 30 0d 0a 48 33 43 20 53 35 31 33 30 53 2d 35 
+32 53 2d 45 49 0d 0a 43 6f 70 79 72 69 67 68 74 
+20 28 63 29 20 32 30 30 34 2d 32 30 31 38 20 4e 
+65 77 20 48 33 43 20 54 65 63 68 6e 6f 6c 6f 67 
+69 65 73 20 43 6f 2e 2c 20 4c 74 64 2e 20 41 6c 
+6c 20 72 69 67 68 74 73 20 72 65 73 65 72 76 65 
+64 2e 0e 04 03 14 01 14 10 0e 07 06 78 aa 82 9f 
+b9 54 02 00 00 00 00 00 fe 06 00 80 c2 01 07 20 
+fe 09 00 80 c2 07 01 00 00 00 00 fe 09 00 12 0f 
+01 03 00 00 00 1e fe 0c 00 12 0f 02 01 01 01 10 
+00 00 00 00 fe 06 00 12 0f 04 28 00 fe 07 00 12 
+bb 01 00 2f 04 fe 07 00 12 bb 04 11 00 00 fe 09 
+00 12 bb 05 56 65 72 2e 41 fe 07 00 12 bb 06 31 
+32 31 fe 1b 00 12 bb 07 37 2e 31 2e 30 37 30 20 
+52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 fe 
+18 00 12 bb 08 32 31 39 38 30 31 41 31 32 46 39 
+32 30 34 51 30 30 30 38 37 fe 07 00 12 bb 09 48 
+33 43 fe 15 00 12 bb 0a 48 33 43 20 53 35 31 33 
+30 53 2d 35 32 53 2d 45 49 fe 0b 00 12 bb 0b 55 
+6e 6b 6e 6f 77 6e 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 78:aa:82:9f:b9:54
+Chassis ID: 04 78 aa 82 9f b9 43 
+Port ID: 03 78 aa 82 9f b9 54 
+Time To Live: 0121
+Port Description: GigabitEthernet1/0/4 Interface
+System Name: SEU-JLH-RJXYL-3L-1
+System Description: H3C Comware Platform Software, Software Version 7.1.070, Release 6126P20
+H3C S5130S-52S-EI
+Copyright (c) 2004-2018 New H3C Technologies Co., Ltd. All rights reserved.
+System Capabilities:  3 14  1 14 
+Management Address: 7.6.120.170.130.159.185.84.2.0.0.0.0.0.
+Organizationally Specific TLVs:  0 80 c2  1  7 20 
+Organizationally Specific TLVs:  0 80 c2  7  1  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  1  3  0  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  2  1  1  1 10  0  0  0  0 
+Organizationally Specific TLVs:  0 12  f  4 28  0 
+Organizationally Specific TLVs:  0 12 bb  1  0 2f  4 
+Organizationally Specific TLVs:  0 12 bb  4 11  0  0 
+Organizationally Specific TLVs:  0 12 bb  5 56 65 72 2e 41 
+Organizationally Specific TLVs:  0 12 bb  6 31 32 31 
+Organizationally Specific TLVs:  0 12 bb  7 37 2e 31 2e 30 37 30 20 52 65 6c 65 61 73 65 20 36 31 32 36 50 32 30 
+Organizationally Specific TLVs:  0 12 bb  8 32 31 39 38 30 31 41 31 32 46 39 32 30 34 51 30 30 30 38 37 
+Organizationally Specific TLVs:  0 12 bb  9 48 33 43 
+Organizationally Specific TLVs:  0 12 bb  a 48 33 43 20 53 35 31 33 30 53 2d 35 32 53 2d 45 49 
+Organizationally Specific TLVs:  0 12 bb  b 55 6e 6b 6e 6f 77 6e 
+....
+[04-12-2023 06:15:44] lldp:176 | Job run
+[04-12-2023 06:15:44] lldp:214 | Hostname: desktop-1g3429n.
+[04-12-2023 06:15:44] lldp:231 | IP Address :192.168.124.1
+[04-12-2023 06:15:44] lldp:271 | Open pcap: rpcap://\Device\NPF_{7E31532B-419F-4434-B8B0-846DD658A2B5}
+[04-12-2023 06:15:44] lldp:304 | Building packet: SRC MAC: 04:7c:16:ec:0d:84
+[04-12-2023 06:15:44] lldp:317 | Building packet: CHASSIS ID: desktop-1g3429n.
+[04-12-2023 06:15:44] lldp:348 | Building packet: PORT ID: 04:7c:16:ec:0d:84
+[04-12-2023 06:15:44] lldp:373 | Building packet: Port Desc: Realtek Gaming 2.5GbE Family Controller
+[04-12-2023 06:15:44] lldp:381 | Building packet: Sys Name: desktop-1g3429n.
+[04-12-2023 06:15:44] lldp:390 | Building packet: Sys Desc: Windows
+[04-12-2023 06:15:44] lldp:406 | Building packet: Management address: 192.168.124.1
+[04-12-2023 06:15:44] lldp:415 | Building packet: Management address: if subtype - ifIndex: 12
+[04-12-2023 06:15:44] lldp:487 | Sending packet (size: 184)
+[04-12-2023 06:15:44] lldp:494 | Closing pcap
+[04-12-2023 06:15:44] loop:523 | Sleeping 30sec==============LLDP Protocol=================
+==============================================================================
+No.1	time: 18:15:44	len: 184
+==============================================================================
+01 80 c2 00 00 0e 04 7c 16 ec 0d 84 88 cc 02 11 
+07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 
+2e 04 07 03 04 7c 16 ec 0d 84 06 02 00 78 08 27 
+52 65 61 6c 74 65 6b 20 47 61 6d 69 6e 67 20 32 
+2e 35 47 62 45 20 46 61 6d 69 6c 79 20 43 6f 6e 
+74 72 6f 6c 6c 65 72 0a 10 64 65 73 6b 74 6f 70 
+2d 31 67 33 34 32 39 6e 2e 0c 07 57 69 6e 64 6f 
+77 73 0e 04 00 80 00 80 10 0c 05 01 c0 a8 7c 01 
+02 00 00 00 0c 00 fe 09 00 12 0f 01 02 80 00 00 
+1e fe 06 00 12 0f 04 05 ee fe 07 00 12 bb 01 01 
+ee 03 fe 08 00 12 bb 02 06 80 00 00 fe 08 00 12 
+bb 02 07 80 00 00 00 00 
+Destination Mac Address: 01:80:c2:00:00:0e
+Source Mac Address: 04:7c:16:ec:0d:84
+Chassis ID: 07 64 65 73 6b 74 6f 70 2d 31 67 33 34 32 39 6e 2e 
+Port ID: 03 04 7c 16 ec 0d 84 
+Time To Live: 0120
+Port Description: Realtek Gaming 2.5GbE Family Controller
+System Name: desktop-1g3429n.
+System Description: Windows
+System Capabilities:  0 80  0 80 
+Management Address: 5.1.192.168.124.1.2.0.0.0.12.0.
+Organizationally Specific TLVs:  0 12  f  1  2 80  0  0 1e 
+Organizationally Specific TLVs:  0 12  f  4  5 ee 
+Organizationally Specific TLVs:  0 12 bb  1  1 ee  3 
+Organizationally Specific TLVs:  0 12 bb  2  6 80  0  0 
+Organizationally Specific TLVs:  0 12 bb  2  7 80  0  0 
+.....................
