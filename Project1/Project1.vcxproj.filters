@@ -24,9 +24,15 @@
     <ClCompile Include="dbg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TimerQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerQueue.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

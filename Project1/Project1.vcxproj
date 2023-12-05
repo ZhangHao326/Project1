@@ -133,10 +133,12 @@
   <ItemGroup>
     <ClCompile Include="dbg.cpp" />
     <ClCompile Include="svc.cpp" />
+    <ClCompile Include="TimerQueue.cpp" />
     <ClCompile Include="WinPcap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="TimerQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
