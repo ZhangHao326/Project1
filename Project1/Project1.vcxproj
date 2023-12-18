@@ -21,15 +21,17 @@
   <ItemGroup>
     <ClInclude Include="Header.h" />
     <ClInclude Include="receive.h" />
+    <ClInclude Include="send.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="TimerQueue.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cmd.cpp" />
     <ClCompile Include="receive.cpp" />
-    <ClCompile Include="Server.cpp" />
-    <ClCompile Include="TimerQueue.cpp" />
     <ClCompile Include="send.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="svc.cpp" />
+    <ClCompile Include="TimerQueue.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -48,3 +48,5 @@ void show_neighbor();
 int receivePacket();
 string neighbor_data_to_json(neighbor_data &neighbor);
 string GetMacAddress();
+
+string GetHostName();

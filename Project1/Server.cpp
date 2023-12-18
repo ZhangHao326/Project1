@@ -51,32 +51,32 @@ void Server::Init() {
 		}
 		std::cout << "接收到一个连接：" << inet_ntoa(remoteAddr.sin_addr) << endl;
 		{
-			FIXED_INFO* pFixedInfo;
-			pFixedInfo = (FIXED_INFO*)MALLOC(sizeof(FIXED_INFO));
-			string dnsname;
-			dnsname = pFixedInfo->HostName + string(".") + pFixedInfo->DomainName;
-
+			string dnsname = GetHostName() + ".";
 			transform(dnsname.begin(), dnsname.end(), dnsname.begin(), ::tolower);
-			string mac = GetMacAddress();
-			
-			string local_message = "{\"chassis_id:\"" + dnsname + ",\"mac_address:\"" + mac + "}";
-			const char* local_message_= local_message.c_str();
-			
+			string local_message;
+			//string mac = GetMacAddress();
+
+			//string local_message = "{\"chassis_id:\"" + dnsname + ",\"mac_address:\"" + mac + "}";
+			//const char* local_message_= local_message.c_str();
+
 			//本机
-			send(sclient, local_message_, strlen(local_message_), 0);
-			
+			//send(sclient, local_message_, strlen(local_message_), 0);
+
 			//邻居
+			string s = "data,";
+			s += dnsname + ",";
+			s += "Windows,";
 			mib_mutex.lock();
 			for (auto it = mib.begin(); it != mib.end(); ++it) {
-				neighbor_data value = it->second;
-				string neighbor = neighbor_data_to_json(value);
-				const char* neighbor_ = neighbor.c_str();
-				send(sclient, neighbor_, strlen(neighbor_), 0);
-			
+				if (it->first != dnsname) {
+					neighbor_data value = it->second;
+					s += value.chassis_id + "," + value.system_description+",";
+				}
 			}
 			mib_mutex.unlock();
-
-
+			
+			const char* s_ =s.c_str();
+			send(sclient, s_, strlen(s_), 0);
 			std::unique_lock<std::mutex> lock(mutex_);
 			client_fds_.push_back(sclient);
 		}

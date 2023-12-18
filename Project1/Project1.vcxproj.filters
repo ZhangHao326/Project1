@@ -27,6 +27,9 @@
     <ClInclude Include="Server.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="send.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cmd.cpp">
@@ -42,6 +45,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="send.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="svc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

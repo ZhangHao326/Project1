@@ -12,9 +12,12 @@
 #include <WinSock2.h>
 #include <iphlpapi.h>
 #include <stdio.h>
-
+#include <assert.h>
+#include<Winsock2.h>
+#include<Windows.h>
+#include"Header.h"
 #pragma comment(lib, "IPHLPAPI.lib")
-
+#pragma comment(lib,"ws2_32.lib")
 using namespace std;
 
 
@@ -28,12 +31,12 @@ TimerQueue timerQueue;
 mutex mib_mutex;
 Server myServer(1234);
 bool start_flag = 0;
+
 //从mib库删除邻居
 void delete_neighbor(string chassis_id) {
 	mib_mutex.lock();
 	mib.erase(chassis_id);
 	mib_mutex.unlock();
-	cout << "";
 }
 
 // Ethernet协议处理
@@ -419,4 +422,32 @@ string GetMacAddress()
 	WSACleanup();
 
 	return macAddress;
+}
+
+
+std::string GetHostName()
+{
+	std::string hostname;
+
+	// 初始化Winsock
+	WSADATA wsaData;
+	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
+	{
+		std::cerr << "Failed to initialize Winsock" << std::endl;
+		return hostname;
+	}
+
+	char buffer[256];
+	if (gethostname(buffer, sizeof(buffer)) == 0)
+	{
+		hostname = buffer;
+	}
+	else
+	{
+		std::cerr << "Failed to get hostname" << std::endl;
+	}
+
+	WSACleanup();
+
+	return hostname;
 }

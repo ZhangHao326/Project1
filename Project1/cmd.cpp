@@ -2,28 +2,31 @@
 #include <string>
 #include <thread>
 #include"receive.h"
+#include"send.h"
 
 using namespace std;
 
 void server_start() {
     myServer.Init();
 }
+
 void lldp_start() {
     start_flag = 1;
     timerQueue.Run();
-    thread my_server(server_start);
+    thread my_server(server_start);    
+    thread sendLLDP(sendPacket);
     thread receiveLLDP(receivePacket);
-    //cin.get();
+
     Sleep(5000);
-    //my_server.
-    my_server.detach();
+    my_server.detach();  
+    sendLLDP.detach();
     receiveLLDP.detach();
+  
 }
 void lldp_close() {
-    
-    //·¢ËÍshutdown°ü
-
-
+    interrupt();
+    send_lldp_close_packet();
+    myServer.Publish("lldpclose");
     start_flag = 0;
 }
 int main() {
