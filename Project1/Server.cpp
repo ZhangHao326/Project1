@@ -51,7 +51,7 @@ void Server::Init() {
 		}
 		std::cout << "接收到一个连接：" << inet_ntoa(remoteAddr.sin_addr) << endl;
 		{
-			string dnsname = GetHostName() + ".";
+			string dnsname = "local "+GetHostName() + ".";
 			transform(dnsname.begin(), dnsname.end(), dnsname.begin(), ::tolower);
 			string local_message;
 			//string mac = GetMacAddress();
@@ -63,16 +63,32 @@ void Server::Init() {
 			//send(sclient, local_message_, strlen(local_message_), 0);
 
 			//邻居
-			string s = "data,";
-			s += dnsname + ",";
-			s += "Windows,";
+			string s = "data";
+			s += "$"+dnsname+"$";
 			mib_mutex.lock();
+			for (auto it = mib.begin(); it != mib.end(); ++it) {
+				if (it->first == dnsname) {
+					neighbor_data value = it->second;
+					s += value.port_id;
+				}
+			}
+			
 			for (auto it = mib.begin(); it != mib.end(); ++it) {
 				if (it->first != dnsname) {
 					neighbor_data value = it->second;
-					s += value.chassis_id + "," + value.system_description+",";
+					s += "$"+value.chassis_id + "$" + value.port_id;
 				}
 			}
+			//string s = "data,";
+			//s += dnsname + ",";
+			//s += "Windows,";
+			//mib_mutex.lock();
+			//for (auto it = mib.begin(); it != mib.end(); ++it) {
+			//	if (it->first != dnsname) {
+			//		neighbor_data value = it->second;
+			//		s += value.chassis_id + "," + value.system_description+",";
+			//	}
+			//}
 			mib_mutex.unlock();
 			
 			const char* s_ =s.c_str();
