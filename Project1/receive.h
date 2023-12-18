@@ -8,13 +8,14 @@
 #include<iostream>
 #include"TimerQueue.h"
 #include <chrono>
+#include"Server.h"
+
 using namespace std;
 #pragma comment(lib, "wpcap.lib")
 #pragma comment(lib, "Ws2_32.lib")
 
 
 
-//FILE* file = 0;
 
 // 以太网协议格式的定义
 typedef struct ether_header {
@@ -38,8 +39,12 @@ typedef struct neighbor_data {
 extern map<string, neighbor_data>mib;  //本地MIB库，key为chassis_id
 extern TimerQueue timerQueue;
 extern mutex mib_mutex;
+extern Server myServer;
+extern bool start_flag;
 
 void delete_neighbor(std::string chassis_id);
 void ethernet_protocol_packet_handle(u_char* arg, const struct pcap_pkthdr* pkt_header, const u_char* pkt_content);
 void show_neighbor();
 int receivePacket();
+string neighbor_data_to_json(neighbor_data &neighbor);
+string GetMacAddress();

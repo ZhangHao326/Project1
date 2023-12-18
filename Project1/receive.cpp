@@ -8,6 +8,13 @@
 #include"TimerQueue.h"
 #include <chrono>
 #include "receive.h"
+#include <iostream>
+#include <WinSock2.h>
+#include <iphlpapi.h>
+#include <stdio.h>
+
+#pragma comment(lib, "IPHLPAPI.lib")
+
 using namespace std;
 
 
@@ -19,7 +26,8 @@ using namespace std;
 map<string, neighbor_data>mib;  //本地MIB库，key为chassis_id
 TimerQueue timerQueue; 
 mutex mib_mutex;
-
+Server myServer(1234);
+bool start_flag = 0;
 //从mib库删除邻居
 void delete_neighbor(string chassis_id) {
 	mib_mutex.lock();
@@ -160,12 +168,24 @@ void ethernet_protocol_packet_handle(u_char* arg, const struct pcap_pkthdr* pkt_
 			//		printf("%2x ", *(q + i));
 			//	}
 			//	break;
-			//case 8:
+			case 8:
 			//	printf("Management Address: ");
-			//	for (int i = 1; i <= length; i++) {
-			//		printf("%d.", *(q + i));
-			//	}
-			//	break;
+				//int mag_len = *(q + 1);
+				
+				//subtype: ipv4
+				if (*(q + 2) == 1) {
+					temp.management_address += "ipv4 ";
+					for (int i = 3; i < 7; i++) {
+						int j = *(q + i);
+						temp.management_address += to_string(j);
+						if (i < 6) {
+							temp.management_address += ".";
+						}
+
+					}
+					
+				}
+				break;
 			default:
 				break;
 
@@ -188,6 +208,7 @@ void ethernet_protocol_packet_handle(u_char* arg, const struct pcap_pkthdr* pkt_
 			//更新mib库
 			mib_mutex.lock();
 			mib[temp.chassis_id] = temp;
+			
 			mib_mutex.unlock();
 
 			//更新计时器
@@ -196,12 +217,13 @@ void ethernet_protocol_packet_handle(u_char* arg, const struct pcap_pkthdr* pkt_
 			std::chrono::seconds duration(temp.time_to_live);
 			//std::function<void(string)> callback = delete_neighbor;
 			timerQueue.AddFuncAfterDuration(duration, temp.chassis_id, delete_neighbor);
-			cout << "";
+			//cout << "";
 		}
 	}
 
 }
 
+//打印邻居信息
 void show_neighbor() {
 	for (auto it = mib.begin(); it != mib.end(); ++it) {
 		neighbor_data value = it->second;
@@ -221,6 +243,8 @@ void show_neighbor() {
 			cout << "Management Address: " << value.management_address << endl;
 	}
 }
+
+
 int receivePacket() {
 	pcap_if_t* alldevs;	//适配器列表，它是一个链表的数据结构
 	pcap_if_t* d;		//保存某个适配器
@@ -289,7 +313,7 @@ int receivePacket() {
 		return -1;
 	}
 
-	while ((res = pcap_next_ex(fp, &header, &pkt_data)) >= 0)
+	while ((res = pcap_next_ex(fp, &header, &pkt_data)) >= 0&&start_flag)
 	{
 		//超时
 		if (res == 0)
@@ -312,4 +336,87 @@ int receivePacket() {
 	pcap_freealldevs(alldevs);
 	fclose(stdin);
 	return 0;
+}
+
+//把邻居信息转化为json格式
+string neighbor_data_to_json(neighbor_data &neighbor) {
+	string s="{";
+	s += "\"chassis_id\":";
+	s += neighbor.chassis_id;
+	s+= ",\"port_id\":";
+	s += neighbor.port_id;
+	s+= ",\"time_to_live\":";
+	s += neighbor.time_to_live;
+	if (neighbor.port_description != "") {
+		s += ",\"port_description\":";
+		s += neighbor.port_description;
+	}
+	if (neighbor.system_name != "") {
+		s += ",\"system_name\":";
+		s += neighbor.system_name;
+	}
+	if (neighbor.system_description != "") {
+		s += ",\"system_description\":";
+		s += neighbor.system_description;
+	}
+	if (neighbor.system_capacities != "") {
+		s += ",\"system_capacities\":";
+		s += neighbor.system_capacities;
+	}
+	if (neighbor.management_address != "") {
+		s += ",\"management_address\":";
+		s += neighbor.management_address;
+	}
+	s += "}";
+	return s;
+}
+
+string GetMacAddress()
+{
+	std::string macAddress;
+
+	// 初始化Winsock
+	WSADATA wsaData;
+	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
+	{
+		std::cerr << "Failed to initialize Winsock" << std::endl;
+		return macAddress;
+	}
+
+	// 获取接口信息
+	DWORD bufferSize = 0;
+	if (GetAdaptersInfo(NULL, &bufferSize) != ERROR_BUFFER_OVERFLOW)
+	{
+		std::cerr << "Failed to get adapter info" << std::endl;
+		WSACleanup();
+		return macAddress;
+	}
+
+	std::vector<char> buffer(bufferSize);
+	PIP_ADAPTER_INFO adapterInfo = reinterpret_cast<PIP_ADAPTER_INFO>(&buffer[0]);
+	if (GetAdaptersInfo(adapterInfo, &bufferSize) != NO_ERROR)
+	{
+		std::cerr << "Failed to get adapter info" << std::endl;
+		WSACleanup();
+		return macAddress;
+	}
+
+	// 遍历接口信息，获取第一个以太网卡的MAC地址
+	while (adapterInfo)
+	{
+		if (adapterInfo->Type == MIB_IF_TYPE_ETHERNET)
+		{
+			char mac[18];
+			sprintf_s(mac, "%02X:%02X:%02X:%02X:%02X:%02X",
+				adapterInfo->Address[0], adapterInfo->Address[1], adapterInfo->Address[2],
+				adapterInfo->Address[3], adapterInfo->Address[4], adapterInfo->Address[5]);
+			macAddress = mac;
+			break;
+		}
+		adapterInfo = adapterInfo->Next;
+	}
+
+	WSACleanup();
+
+	return macAddress;
 }

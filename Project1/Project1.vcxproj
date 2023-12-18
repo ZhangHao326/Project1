@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="receive.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="TimerQueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmd.cpp" />
+    <ClCompile Include="receive.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="TimerQueue.cpp" />
+    <ClCompile Include="send.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

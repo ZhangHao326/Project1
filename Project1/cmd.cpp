@@ -5,14 +5,27 @@
 
 using namespace std;
 
+void server_start() {
+    myServer.Init();
+}
 void lldp_start() {
+    start_flag = 1;
     timerQueue.Run();
-    std::thread receiveLLDP(receivePacket);
+    thread my_server(server_start);
+    thread receiveLLDP(receivePacket);
     //cin.get();
     Sleep(5000);
+    //my_server.
+    my_server.detach();
     receiveLLDP.detach();
 }
+void lldp_close() {
+    
+    //·¢ËÍshutdown°ü
 
+
+    start_flag = 0;
+}
 int main() {
 
     while (true) {
@@ -34,7 +47,8 @@ int main() {
             }
             else if (arg == "close")
             {
-                cout << "close--";
+                
+                lldp_close();
             }
             else if (arg == "show")
             {
