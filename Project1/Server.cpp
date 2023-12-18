@@ -90,7 +90,7 @@ void Server::Init() {
 			//	}
 			//}
 			mib_mutex.unlock();
-			
+			s += "$";
 			const char* s_ =s.c_str();
 			send(sclient, s_, strlen(s_), 0);
 			std::unique_lock<std::mutex> lock(mutex_);
