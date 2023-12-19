@@ -95,6 +95,7 @@ void Server::Init() {
 			send(sclient, s_, strlen(s_), 0);
 			std::unique_lock<std::mutex> lock(mutex_);
 			client_fds_.push_back(sclient);
+
 		}
 	}
 }
